@@ -1,0 +1,16 @@
+{
+  "name": "tvos-jade",
+  "version": "1.0.0",
+  "description": "Write TVML templates in Jade and wrap them in Javascript functions for use in a TVOS application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tvml",
+    "jade",
+    "tvos"
+  ],
+  "author": "James Martin <tvos-jade@jmrtn.com> (https://github.com/jamesmartin/tvos-jade)",
+  "license": "ISC"
+}
