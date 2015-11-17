@@ -1,6 +1,6 @@
 {
   "name": "tvos-jade",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Write TVML templates in Jade and wrap them in Javascript functions for use in a TVOS application",
   "main": "index.js",
   "scripts": {
