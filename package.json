@@ -1,7 +1,7 @@
 {
-  "name": "tvos-jade",
+  "name": "tvos-pug",
   "version": "1.0.2",
-  "description": "Write TVML templates in Jade and wrap them in Javascript functions for use in a TVOS application",
+  "description": "Write TVML templates in Pug (formerly know as Jade) and wrap them in Javascript functions for use in a TVOS application",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,6 +18,6 @@
   "author": "James Martin <tvos-jade@jmrtn.com> (https://github.com/jamesmartin/tvos-jade)",
   "license": "ISC",
   "dependencies": {
-    "jade": "^1.11.0"
+    "pug": "^2.0.0-alpha6"
   }
 }
