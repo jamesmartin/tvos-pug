@@ -17,11 +17,11 @@ One man's hatred of XML *can* make a difference.
 // .
 // this_file.js
 // templates/
-//  Index.xml.js.jade
-//  Other.xml.js.jade
+//  ⌞ Index.xml.js.pug
+//  ⌞ Other.xml.js.pug
 
 
-var tvOSJade = require('tvos-jade');
+var tvOSPug = require('tvos-pug');
 
-var tvml = tvOSJade.renderTemplate('Index.xml.js', {"some": "locals"})
+var tvml = tvOSPug.renderTemplate('Index.xml.js', {"some": "locals"})
 ```
