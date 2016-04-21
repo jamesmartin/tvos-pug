@@ -11,9 +11,7 @@
     "url": "git+https://github.com/jamesmartin/tvos-jade.git"
   },
   "keywords": [
-    "tvml",
-    "jade",
-    "tvos"
+    "tvml", "jade", "pug", "tvos", "templates", "template"
   ],
   "author": "James Martin <tvos-jade@jmrtn.com> (https://github.com/jamesmartin/tvos-jade)",
   "license": "ISC",
