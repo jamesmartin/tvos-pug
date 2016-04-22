@@ -1,4 +1,4 @@
-# tvos-jade
+# tvos-pug
 
 Write TVML templates in Pug (formerly know as Jade) and wrap them in Javascript functions for use in a TVOS application
 
