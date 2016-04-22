@@ -1,14 +1,14 @@
 # tvos-jade
 
-Write TVML templates in Jade and wrap them in Javascript functions for use in a TVOS application
+Write TVML templates in Pug (formerly know as Jade) and wrap them in Javascript functions for use in a TVOS application
 
-Entirely motivated by ground-breaking experiments on [jade-tvml](https://github.com/2metres/jade-tvml) by [@2metres](https://github.com/2metres).
+Entirely motivated by ground-breaking experiments on TVML by [@2metres](https://github.com/2metres).
 
 One man's hatred of XML *can* make a difference.
 
 ## Install
 
-`npm install tvos-jade`
+`npm install tvos-pug`
 
 ## Use
 
@@ -17,11 +17,11 @@ One man's hatred of XML *can* make a difference.
 // .
 // this_file.js
 // templates/
-//  Index.xml.js.jade
-//  Other.xml.js.jade
+//  ⌞ Index.xml.js.pug
+//  ⌞ Other.xml.js.pug
 
 
-var tvOsJade = require('tvos-jade');
+var tvOSPug = require('tvos-pug');
 
-var tvml = tvOsJade.renderTemplate('Index.xml.js', {"some": "locals"})
+var tvml = tvOSPug.renderTemplate('Index.xml.js', {"some": "locals"})
 ```
